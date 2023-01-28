@@ -48,7 +48,7 @@ const observer = new MutationObserver((mutations) => {
         ).click((e) => {
           const $textarea = $(".comment-form-textarea", node);
           $textarea.val(
-            `|Feedback Priority|\n|---|\n|${
+            `|优先级|\n|---|\n|${
               $(`#${selectId}`).val() as string
             }|\n\n${$textarea.val() as string}`
           );

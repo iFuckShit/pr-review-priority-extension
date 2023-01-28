@@ -4,24 +4,24 @@ let insertionId = 0;
 
 const priorityOptions = [
   {
-    displayName: "⛰ Blocking and requires immediate action",
-    textInsertion: "⛰ Mountain / **Blocking and requires immediate action**",
+    displayName: "⛰ 不可通过，即刻更改",
+    textInsertion: "⛰ 泰山 / **不可通过，即刻更改**",
   },
   {
-    displayName: "🧗‍♀️ Blocking",
-    textInsertion: "🧗‍♀️ Boulder / **Blocking**",
+    displayName: "🧗‍♀️ 不可通过",
+    textInsertion: "🧗‍♀️ 磐石 / **不可通过**",
   },
   {
-    displayName: "⚪️ Non-blocking but requires future action",
-    textInsertion: "⚪️ Pebble / Non-blocking but requires future action",
+    displayName: "⚪️ 并无大碍，但需要采取操作",
+    textInsertion: "⚪️ 石子 / 并无大碍，但需要采取操作",
   },
   {
-    displayName: "⏳ Non-blocking but requires future consideration",
-    textInsertion: "⏳ Sand / Non-blocking but requires future consideration",
+    displayName: "⏳ 并无大碍，但需要重新考虑",
+    textInsertion: "⏳ 细沙 / 并无大碍，但需要重新考虑",
   },
   {
-    displayName: "🌫 Non-blocking, “take it or leave it”",
-    textInsertion: "🌫 Dust / Non-blocking, “take it or leave it”",
+    displayName: "🌫 并无大碍：提一嘴",
+    textInsertion: "🌫 尘埃 / 并无大碍：提一嘴",
   },
 ];
 

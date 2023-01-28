@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           always-auth: true
-          registry-url: https://npm.pkg.github.com/mindhand-io/
+          registry-url: https://registry.npmjs.org/
           scope: "@mindhand-io"
           node-version: ${{ matrix.node-version }}
       - run: npm install

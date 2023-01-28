@@ -4,8 +4,8 @@ let insertionId = 0;
 
 const priorityOptions = [
   {
-    displayName: "⛰ 不可通过，即刻更改",
-    textInsertion: "⛰ 泰山 / **不可通过，即刻更改**",
+    displayName: "⛰ 不可通过，须即刻更改",
+    textInsertion: "⛰ 泰山 / **不可通过，须即刻更改**",
   },
   {
     displayName: "🧗‍♀️ 不可通过",
